@@ -1,5 +1,4 @@
-package comp557.a1;
-//Diyang Zhang - 260796176
+//Diyang Zhang
 
 import com.jogamp.opengl.GL2;
 import com.jogamp.opengl.GLAutoDrawable;
