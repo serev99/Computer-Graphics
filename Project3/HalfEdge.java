@@ -1,4 +1,4 @@
-package comp557.a3;
+// Diyang Zhang
 
 import javax.vecmath.Point3d;
 
@@ -15,9 +15,8 @@ public class HalfEdge {
     public HalfEdge twin;
     public HalfEdge next;
     public Vertex head;
-	public Face leftFace;
+    public Face leftFace;
 	
-	// TODO: Add any members you like for cached data you need to speed up computation elsewhere!
 	
     /** @return the previous half edge (could also just be stored) */
     public HalfEdge prev() {
