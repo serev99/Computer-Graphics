@@ -1,4 +1,5 @@
 # Computer-Graphics
-Some Computer Graphics Mini Projects (Java & OpenGL)  
+Some Computer Graphics Mini Projects (using Java & OpenGL)  
 For school policy, the source code cannot be fully uploaded for now  
-Please check the demo in each folder
+Only a few src files are set public here  
+Please feel free to check demos in each folder!
