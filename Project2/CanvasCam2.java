@@ -1,4 +1,4 @@
-package comp557.a2;
+// Diyang Zhang
 
 import com.jogamp.opengl.DebugGL2;
 import com.jogamp.opengl.GL;
@@ -87,14 +87,7 @@ public class CanvasCam2 implements GLEventListener {
         list = scene.display( drawable, list );
                 
 
-        // TODO OBJECTIVE 2: Draw sensor frame rectangle with correct modeling transformation
-        // TODO OBJECTIVE 3: Draw camera frame and frustum with correct modeling transforms
-        // TODO OBJECTIVE 6: Draw rectangle at the focus distance plane
-        
-        // Here you are provided with some helper code to extract matrices from OpenGL with
-        // glGetDoublev, with help from a FlatMatrix4d (see javadoc), which helps glue 
-        // vecmath with opengl.  See getBackingMatrix, reconstitute, and asArray calls to 
-        // understand what is happening here.
+        // Edited by Diyang
         
         final FlatMatrix4d P = new FlatMatrix4d();
         final FlatMatrix4d Pinv = new FlatMatrix4d();
