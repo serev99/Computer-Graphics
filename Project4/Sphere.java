@@ -1,4 +1,4 @@
-package comp557.a4;
+// Diyang Zhang
 
 import javax.vecmath.Point3d;
 import javax.vecmath.Vector3d;
@@ -37,7 +37,7 @@ public class Sphere extends Intersectable {
     
     @Override
     public void intersect( Ray ray, IntersectResult result ) {
-        // TODO: Objective 2: intersection of ray with sphere
+    
     	// Note that t = (-dp [+/-] sqrt((dp)^2-(dd)(pp-rr)))/dd
     	Vector3d d = new Vector3d(ray.viewDirection);
     	Vector3d p = new Vector3d(ray.eyePoint);
@@ -52,6 +52,7 @@ public class Sphere extends Intersectable {
     			result.n.normalize();
     			result.material = material;
     		}
-       	} 	
+       	}
+	    
     }
 }
